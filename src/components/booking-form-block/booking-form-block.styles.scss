@@ -1,0 +1,133 @@
+.booking-form-block {
+	margin-top: 20px;
+	h4 {
+		font-size: 22px;
+		font-weight: 500;
+		color: #444;
+		font-size: 18px;
+		font-weight: 700;
+		color: #000;
+		margin-bottom: 25px;
+	}
+}
+.input-item {
+	box-shadow: 0px 0px 10px 2px #f5f5f5;
+	margin-bottom: 15px;
+	padding: 15px 15px;
+	border-radius: 5px;
+	label {
+		display: block;
+		font-weight: 700;
+		text-transform: capitalize;
+		color: #000;
+	}
+	input {
+		border: none;
+		color: #bbb;
+		font-size: 12px;
+		width: 100%;
+	}
+}
+.form-input-group {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.guest-heading {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+	span {
+		color: #ddd;
+		font-size: 12px;
+		display: block;
+	}
+	h6 {
+		display: block;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 14px;
+		line-height: 32px;
+	}
+}
+.guest-option {
+	display: flex;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	height: 60px;
+	h6 {
+		font-size: 15px;
+		font-weight: 700;
+		text-transform: uppercase;
+		line-height: 20px;
+	}
+	p {
+		color: #ddd;
+		font-size: 12px;
+		text-transform: capitalize;
+		font-weight: 300;
+	}
+}
+.btn-action {
+	width: 25%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	button {
+		background: none;
+		border: none;
+		font-size: 18px;
+		font-weight: 800;
+		display: flex;
+	}
+	span {
+		font-size: 14px;
+		font-weight: 700;
+	}
+}
+.form-input-group.date-picker {
+	input[type="date"] {
+		font-size: 14px;
+		display: block;
+		font-weight: 700;
+		text-transform: capitalize;
+		color: #000;
+		width: 128px !important;
+	}
+	label {
+		font-size: 12px;
+		color: #bbb;
+		font-weight: 400;
+	}
+}
+.date-input {
+	display: flex;
+	input {
+		width: 80%;
+	}
+}
+.custom-button-outline.custom-button {
+	background: none;
+	border: 2px solid #4ae474;
+	color: #2bde8c;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.custom-button-right {
+	text-align: right !important;
+	margin-left: auto;
+	display: flex;
+}
+.fullWidth.custom-button {
+	width: 100%;
+	padding: 14px 0px;
+}
+.custom-button {
+	svg {
+		margin-right: 10px;
+    }
+    &:focus {
+        outline: none !important;
+    }
+}
+

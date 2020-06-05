@@ -1,0 +1,14 @@
+.not-found-page {
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	h1 {
+		font-size: 45px;
+		margin-bottom: 45px;
+	}
+	button {
+		height: 40px;
+	}
+}

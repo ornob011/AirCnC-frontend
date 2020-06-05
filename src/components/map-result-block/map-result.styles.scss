@@ -1,0 +1,28 @@
+.results {
+	&::-webkit-scrollbar {
+		width: 0px !important;
+		background-color: transparent !important;
+	}
+	&::-webkit-scrollbar-thumb {
+		border-radius: 15px !important;
+		-webkit-box-shadow: inset 0 0 6px #fff !important;
+		background-color: #fff !important;
+	}
+	&:hover {
+		&::-webkit-scrollbar-thumb {
+			-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+		}
+	}
+}
+.ft-active.filter {
+	background: #4be573;
+	color: #fff;
+	border: none;
+	border: 1px solid #4be573;
+}
+.filter {
+	margin-right: 10px !important;
+}
+.filters {
+	justify-content: flex-start !important;
+}

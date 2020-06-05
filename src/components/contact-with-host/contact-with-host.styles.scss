@@ -1,0 +1,36 @@
+.contact-with-host-heading {
+	h4 {
+		font-size: 19px;
+		font-weight: 700;
+		line-height: 24px;
+		margin-bottom: 20px;
+	}
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	margin-top: 10vh;
+	p {
+		margin: 0;
+		font-size: 14px;
+		color: #828282;
+		font-weight: 400;
+		letter-spacing: 1px;
+		line-height: 30px;
+	}
+	img {
+		height: 70px;
+		width: 70px;
+		border-radius: 70px;
+	}
+}
+.contact-with-host {
+	textarea {
+		padding: 10px;
+		height: 170px;
+		width: 70%;
+		font-size: 14px;
+		font-weight: 300;
+		margin-bottom: 15px;
+		display: block;
+	}
+}

@@ -1,0 +1,49 @@
+.auth-page {
+	height: 80vh;
+	display: flex;
+	align-items: center;
+}
+.auth-block {
+	h6 {
+		font-size: 18px;
+		font-weight: 800;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	p {
+		color: #828282;
+		font-size: 14px;
+		font-weight: 300;
+		text-align: center;
+		margin-top: 25px;
+	}
+	strong {
+		color: #000;
+		font-weight: 700;
+		cursor: pointer;
+	}
+}
+.auth-input-box {
+	border: 1px solid #f3f3f3;
+	padding: 6px 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #f3f3f3;
+	label {
+		font-size: 14px;
+		display: block;
+		color: gray;
+		margin: 0;
+		margin-bottom: 5px;
+	}
+	input {
+		border: none;
+		color: #000;
+		font-weight: 800;
+		font-size: 14px;
+    }
+    &:focus {
+        outline: none !important;
+    }
+}
+

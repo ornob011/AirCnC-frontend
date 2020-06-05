@@ -1,0 +1,41 @@
+.home-logo {
+	max-width: 100%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+.options {
+	display: flex;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 80px;
+	align-items: center;
+	justify-content: flex-end;
+}
+.option {
+	list-style-type: none;
+	font-size: 14px;
+	color: black;
+	font-weight: 500;
+	margin-left: 25px;
+	a {
+		color: black;
+		font-weight: 700;
+		text-decoration: none !important;
+		&:hover {
+			color: #4de570;
+		}
+	}
+}
+.HeaderArea {
+	height: 80px;
+	border-bottom: 1px solid #ddd;
+	display: flex;
+	align-items: center;
+}
+.header-navigation {
+	display: flex;
+	align-items: center;
+	height: 80px;
+}

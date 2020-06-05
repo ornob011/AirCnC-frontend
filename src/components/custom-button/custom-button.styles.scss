@@ -1,0 +1,16 @@
+.custom-button {
+	background: rgb(43, 222, 140);
+	background: linear-gradient( 90deg, rgba(43, 222, 140, 1) 50%, rgba(92, 232, 101, 1) 100% );
+	border: none;
+	padding: 5px 25px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 300;
+	border-radius: 5px;
+}
+.rounded.custom-button {
+	border-radius: 50px !important;
+}
+.custom-button-waring {
+	background: #f44336 !important;
+}

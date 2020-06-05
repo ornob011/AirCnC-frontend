@@ -1,0 +1,27 @@
+.checkout-block {
+	transition: none !important;
+	em {
+		display: none !important;
+	}
+}
+.step-progress {
+	ol {
+		display: flex;
+		justify-content: flex-start;
+		list-style-type: none;
+	}
+	li {
+		line-height: 14px !important;
+		font-size: 16px !important;
+		margin-right: 20px !important;
+	}
+}
+.progtrckr-todo {
+	font-size: 14px !important;
+}
+.progtrckr-doing {
+	font-size: 14px !important;
+}
+.progtrckr-done {
+	font-weight: 600 !important;
+}

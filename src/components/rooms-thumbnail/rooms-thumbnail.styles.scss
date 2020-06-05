@@ -1,0 +1,16 @@
+.rooms-thumbnails {
+	display: flex;
+	flex-wrap: wrap;
+}
+.rooms-thumbnail {
+	width: 50%;
+	height: 500px;
+	img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+.rooms-thumbnails-wrapper {
+	height: 550px;
+}

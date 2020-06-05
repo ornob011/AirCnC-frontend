@@ -1,0 +1,88 @@
+.rooms-heading {
+	display: flex;
+	justify-content: space-between;
+	h4 {
+		font-size: 34px;
+		font-weight: 500;
+		margin: 0;
+	}
+	img {
+		height: 70px;
+		border-radius: 70px;
+		margin-left: 30px;
+	}
+}
+.rooms-info-block {
+	p {
+		font-size: 16px;
+		color: #6d6d6dbb;
+		letter-spacing: 0px;
+		margin: 0;
+		line-height: 24px;
+		letter-spacing: 1px;
+		font-weight: 400;
+		text-align: justify;
+	}
+}
+.rooms-meta-info {
+	padding: 15px 0px;
+	border-bottom: 1px solid gainsboro;
+	margin-bottom: 35px;
+}
+.rooms-info-key {
+	li {
+		list-style-type: none;
+		display: flex;
+		margin-bottom: 25px;
+	}
+	svg {
+		color: #989898;
+		margin-right: 20px;
+	}
+	p {
+		margin: 0;
+	}
+	h6 {
+		margin: 0;
+		line-height: 24px;
+	}
+	border-bottom: 1px solid gainsboro;
+	margin-bottom: 35px;
+}
+.rooms-description {
+	margin-bottom: 35px;
+}
+.rooms-reviews {
+	padding: 35px 0px;
+	h4 {
+		color: #000;
+		font-size: 24px;
+		font-weight: 500;
+	}
+	p {
+		display: inline-block;
+		margin-left: 10px;
+		color: #000;
+		font-size: 14px;
+		letter-spacing: 0;
+	}
+	svg {
+		color: #2bde8c;
+	}
+	strong {
+		color: #000;
+		font-weight: 700;
+	}
+}
+.desc-collapse-btn {
+	font-size: 17px;
+	border: none;
+	background: none;
+	color: #2196f3;
+	font-weight: 500;
+	margin-top: 15px;
+	display: block;
+	svg {
+		margin-left: 5px;
+	}
+}

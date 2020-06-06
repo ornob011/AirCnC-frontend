@@ -12,7 +12,7 @@ import { loadUser } from "./redux/user/user.actions";
 import PrivateRoute from "./components/utils/PrivateRoute";
 import PaymentSuccessPage from "./pages/payment-success-page/PaymentSuccessPage";
 import NotFound from "./pages/not-found/NotFound";
-import "./App.scss";
+import "./App.css";
 
 if (localStorage.token) {
     setAuthToken(localStorage.token);

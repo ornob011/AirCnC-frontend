@@ -4,10 +4,7 @@ import { connect } from "react-redux";
 import { getBookingData } from "../../redux/booking/booking.actions";
 
 const ContactWithHost = ({ getBookingData, booking }) => {
-    const {
-        room: {
-            user: { avatar },
-        },
+    const { room
     } = booking;
     return (
         <div className="contact-with-host">

@@ -9,7 +9,7 @@ function Product({ product }) {
 	useEffect(() => {
 		const script = document.createElement("script");
 		script.src =
-			"https://www.paypal.com/sdk/js?client-id=Afp61uHLm4iM7KZgELv2rMBNJTmcS_evoFv3Xhncfvy0D_8lBtrwfWJydAXN8tvbzHTswTbWjCXYHb9U";
+			"https://www.paypal.com/sdk/js?client-id=sb";
 		script.addEventListener("load", () => setLoaded(true));
 		document.body.appendChild(script);
 		if (loaded) {
@@ -29,7 +29,6 @@ function Product({ product }) {
 							});
 						},
 						onApprove: async (data, actions) => {
-							const order = await actions.order.capture();
 							setPaidFor(true);
 						},
 						onError: (err) => {

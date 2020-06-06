@@ -1,5 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 import { Switch, Route } from "react-router-dom";
+import ReactGa from 'react-ga';
 import HomePage from "./components/HeroArea/HeroArea";
 import HeaderArea from "./components/HeaderArea/HeaderArea";
 import PlaceMapPage from "./components/PlaceMapPage/PlaceMapPage";
@@ -14,10 +15,19 @@ import PaymentSuccessPage from "./pages/payment-success-page/PaymentSuccessPage"
 import NotFound from "./pages/not-found/NotFound";
 import "./App.css";
 
+
+function initializeAnalytics() {
+    ReactGa.initialize("UA-168440504-2");
+    ReactGa.pageview(window.location.pathname + window.location.search);
+
+}
+
+
 if (localStorage.token) {
     setAuthToken(localStorage.token);
 }
 function App() {
+    initializeAnalytics()
     useEffect(() => {
         store.dispatch(loadUser());
     }, []);

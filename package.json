@@ -17,7 +17,7 @@
     "date-diff": "^0.2.1",
     "firebase": "^7.14.1",
     "mapbox-gl": "^1.9.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-async-script-loader": "^0.3.0",
     "react-bootstrap": "^1.0.0",
